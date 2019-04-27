@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!doctype html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <style>
+
+.icon{
+-webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin: 0;
+  border-radius: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
+  border-radius: 25px;
 }
 
 .topnav a {
   float: left;
   display: block;
+  border-radius: 25px;
+  padding: 20px;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -60,24 +66,21 @@ body {
   }
 }
 </style>
-</head>
-<body>
+
+
 
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
- 
-  <a href="#news" >News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="https://www.jaadujinn.ml/" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="https://drive.google.com/drive/folders/1qR_DpBDE9BSQwVpx3yYVLMn2qvwVUcKI" target="_blank" >&nbsp⍦&nbsp&nbspGoogleDrive</a>
+  <a href="https://www.jaadujinn.ml/p/blog-page_64.html">☀ Android || Windows</a>
+  <a href="https://www.jaadujinn.ml/p/blog-page.html">ლ Entertainment (Movies, Seasons)</a>
+  <a href="https://www.jaadujinn.ml/p/torrent-portals.html">✦ &nbspMainline (Torrent)</a>
+  <a href="https://www.jaadujinn.ml/p/directories.html">♁&nbsp Directories</a>
+  <a href="https://www.jaadujinn.ml/p/core-readers.html">♛ &nbspBlog Reads</a>
+  <a href="https://www.jaadujinn.ml/p/web-development-cretive-codes.html">⋛ &nbspWeb Development</a>
+  <a href="http://www.atomtocosmos.ml/">⁂ &nbspAtomtoCosmos.ml</a>
+    
+  
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -95,5 +98,5 @@ function myFunction() {
 }
 </script>
 
-</body>
-</html>
+
+</!doctype>
